@@ -140,5 +140,10 @@
     {/if}
     
 {/if}
+<div class=" flex justify-center mt-6 space-x-3">
+    <p class=" font-semibold">Dark Mode</p>
+    <input type="checkbox" value="dark" class="toggle theme-controller outline-2" />
+</div>
+
 
    
