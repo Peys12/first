@@ -45,7 +45,7 @@
     
     
     {#if angka == 0 }
-    <div class=" card bg-base-300 mx-102 py-5 rounded-3xl">
+    <div class=" card bg-base-300  py-5 rounded-3xl">
         <div class=" card-body text-center px-12 space-y-2 pt-1">
             <p class="font-semibold text-[16px] ">Sebelum Itu Masukan Nama Kamu Yaa</p>
             <input type="text" bind:value={nama} placeholder="Masukan Nama Kamu" class="input input-bordered input-info w-full max-w-full rounded-2xl" />
@@ -55,7 +55,7 @@
     </div>
 
     {:else if angka == 1}
-    <div class=" card bg-base-300 mx-132 py-7 rounded-3xl">
+    <div class=" card bg-base-300  py-7 rounded-3xl">
         <div class=" card-body text-center py-1 space-y-2">
             <p class=" font-semibold text-[15px] ">Aku merasa nyaman berbicara dengan orang baru.</p>
             <div class=" flex justify-center space-x-4"> 
@@ -65,7 +65,7 @@
         </div>
     </div>
     {:else if angka == 2}
-    <div class=" card bg-base-300 mx-132 py-7 rounded-3xl">
+    <div class=" card bg-base-300 py-7 rounded-3xl">
         <div class=" card-body text-center py-1 space-y-2">
             <p class=" font-semibold text-[15px] ">Aku lebih suka berada di tempat ramai daripada sendirian di rumah.</p>
             <div class=" flex justify-center space-x-4">
@@ -75,7 +75,7 @@
         </div>
     </div>
     {:else if angka == 3}
-    <div class=" card bg-base-300 mx-132 py-7 rounded-3xl">
+    <div class=" card bg-base-300 py-7 rounded-3xl">
         <div class=" card-body text-center py-1 space-y-2">
             <p class=" font-semibold text-[15px] ">Aku lebih sering mengajak teman duluan untuk ngobrol atau bermain.</p>
             <div class=" flex justify-center space-x-4">
@@ -85,7 +85,7 @@
         </div>
     </div>
     {:else if angka == 4}
-    <div class=" card bg-base-300 mx-132 py-7 rounded-3xl">
+    <div class=" card bg-base-300  py-7 rounded-3xl">
         <div class=" card-body text-center py-1 space-y-2">
             <p class=" font-semibold text-[15px] ">Aku merasa kelelahan setelah terlalu banyak bersosialisasi.</p>
             <div class=" flex justify-center space-x-4">
@@ -95,7 +95,7 @@
         </div>
     </div>
     {:else if angka == 5}
-    <div class=" card bg-base-300 mx-132 py-7 rounded-3xl">
+    <div class=" card bg-base-300 py-7 rounded-3xl">
         <div class=" card-body text-center py-1 space-y-2">
             <p class=" font-semibold text-[15px] ">Aku sering merasa canggung atau tidak nyaman saat berada di tengah banyak orang.</p>
             <div class=" flex justify-center space-x-4">
@@ -116,7 +116,7 @@
     </div>
         {:else if tampilkan==2}
         
-        <div class=" card bg-base-300 mx-132 py-7 rounded-3xl">
+        <div class=" card bg-base-300  py-7 rounded-3xl">
             <div class=" card-body text-center py-1 space-y-2 font-bold text-[16px]">
         
         {#if pertanyaan1==5}
